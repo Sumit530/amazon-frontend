@@ -20,8 +20,8 @@ import { Switch, Route } from "react-router-dom";
 
 
 function App() {
-  const [data, setData] = useState(false);
   
+  const [data, setData] = useState(false);
   useEffect(() => {
     setTimeout(() => {
       setData(true);
